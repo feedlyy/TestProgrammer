@@ -58,6 +58,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # TestProgrammer
+Simple CRUD with SweetAlert.js and AdminLTE
 
 How to use :
-- 
+- Jalankan server laravel php artisan serve pada CMD
+- buka localhost:8000
+- login menggunakan id:testprogrammer, pass:testprogrammer
+atau register sebagai user baru
+
