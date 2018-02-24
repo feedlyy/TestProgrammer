@@ -61,6 +61,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 Simple CRUD with SweetAlert.js and AdminLTE
 
 How to use :
+- Import database atau create db dengan nama testprogrammer kemudian jalankan php artisan migrate pada CMD
 - Jalankan server laravel php artisan serve pada CMD
 - buka localhost:8000
 - login menggunakan id:testprogrammer, pass:testprogrammer
