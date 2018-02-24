@@ -60,8 +60,17 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # TestProgrammer
 Simple CRUD with SweetAlert.js and AdminLTE
 
+How to install: 
+- Clone this repository with git command on your working directory (C:\xampp\htdocs on xampp or C:\laragon\www on laragon): 
+git clone https://github.com/feedlyy/TestProgrammer.git
+- Edit the .env.example file. Change the DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME and DB_PASSWORD parameter as your database configuration.
+- Save the file as .env
+- Install the dependencies: composer install --no-scripts
+- Generate a random key with artisan command php artisan key:generate
+- Migrate the tables to database php artisan migrate --seed
+- For symlinking the storage folder for file uploads, use: php artisan storage:link
+
 How to use :
-- Import database atau create db dengan nama testprogrammer kemudian jalankan php artisan migrate pada CMD
 - Jalankan server laravel php artisan serve pada CMD
 - buka localhost:8000
 - login menggunakan id:testprogrammer, pass:testprogrammer
