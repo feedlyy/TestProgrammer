@@ -97,7 +97,7 @@ class ArticleController extends Controller
             'isi' => ['required', 'max:255']
         ]);
 
-        $article = new Article;
+        $article = Article::find($id);
         $article->judul_article = $request->judul;
         $article->isi_article = $request->isi;
         $article->save();
